@@ -1,16 +1,39 @@
-# cots
+Sensor Monitoring App
 
-A new Flutter project.
+adalah aplikasi Flutter + Supabase untuk mengelola, memantau, dan melihat riwayat data sensor seperti suhu, kelembapan, tekanan, dll.
 
-## Getting Started
+Fitur Utama
+Manajemen sensor (CRUD)
+Monitoring nilai sensor
+Riwayat data sensor
+Status sensor (Aktif / Nonaktif)
+Integrasi Supabase (PostgreSQL)
 
-This project is a starting point for a Flutter application.
+Tampilan Aplikasi
 
-A few resources to get you started if this is your first Flutter project:
+Daftar Sensor
+![Daftar Sensor](image/daftar_sensor.png)
+Menampilkan seluruh sensor yang terdaftar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Detail Sensor
+![Detail Sensor](image/detail_sensor.png)
+Menampilkan informasi lengkap sensor & statusnya.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Monitor 
+![Monitor Sensor](image/monitor_sensor.png)
+Monitoring nilai sensor secara real-time.
+
+Riwayat Data
+![Riwayat Data](image/riwayat_data.png)
+Menampilkan histori data sensor berdasarkan waktu.
+
+Tambah Sensor
+![Tambah Sensor](image/tambah_sensor.png)
+Form untuk menambahkan sensor baru.
+
+
+
+
+
+
+
